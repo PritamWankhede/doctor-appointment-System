@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+
+}
+
+.formdetail{
+   margin-left: 45px;
+   margin-top: 30px;
+}
+
+.paperStyle {
+    padding: 30px 20px;
+    width: 100%;
+}
+
+.book {
+    margin: 0;
+}
+
+.formfield {
+    width: 100%; 
+}
+
+.firsthalf {
+    width: 50%; 
+}
+
+.heroimage {
+    width: 80%;
+    height: 80%; 
+    text-align: center; 
+    margin-right: 40px;
+}
+
+.heroimage img {
+    width: 100%; 
+    height: auto;
+}
+
+.submitButton{
+    margin-top: 12px;
+}
+

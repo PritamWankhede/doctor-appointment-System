@@ -1,0 +1,34 @@
+.navbar{
+    display: flex;
+    height: 120px;
+    /* width: 100vw; */
+    padding: 0px 32px;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.icontitle{
+   display: flex;
+   flex-direction: row;
+}
+
+.icontitle img{
+    width: 4em;
+    height: 4em;
+}
+
+.services{
+    color: var(--color-White, #FFF);
+    display: flex;
+    text-align: center;
+    font-family: Inter;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130.523%; /* 26.004px */
+     flex-direction: row;
+    gap: 40px;
+    cursor: pointer;
+    justify-content: flex-start;  
+}

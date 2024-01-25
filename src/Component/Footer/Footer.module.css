@@ -1,0 +1,33 @@
+.container {
+    padding: 50px;
+    background-color: rgb(57, 56, 56);
+  }
+  
+  .navbar {
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .navcontent {
+    display: flex;
+    gap: 40px;
+  }
+  
+  .copyright {
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-between; */
+    gap: 20px;
+  }
+  
+  .media {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+  }
+  
+  .imgMedia {
+    cursor: pointer;
+  }

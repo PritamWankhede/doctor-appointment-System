@@ -1,0 +1,41 @@
+.p {
+    opacity: 0.4;
+    font-size: 15px;
+  }
+  .mainGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 15%;
+    margin-top: 50px;
+    width: 70%;
+    height: 330px;
+    /* gap: 30px; */
+    text-align: left;
+  }
+  
+  .Acc {
+    width: 600px;
+    height: 60px;
+    padding-left: 70px;
+  }
+  .Acc .summary {
+    background-color: rgb(57, 56, 56);;
+    color: white;
+  }
+  
+  .Acc .details {
+    background-color: rgb(57, 56, 56);;
+    color: white;
+    /* opacity: 0.3; */
+    .type {
+      opacity: 0.3;
+      text-align: left;
+    }
+  }
+  
+  .add {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    margin-left: 450px;
+  }
